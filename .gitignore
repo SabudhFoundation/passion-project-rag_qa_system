@@ -3,7 +3,7 @@
 # ─
 /reports/final_project_report/_output/
 /reports/final_project_report/tex_files/
-
+.env
 # ──────────────────────────────────────────────────────────────────────────────
 # 1) OS / global ignores (cross-platform)
 # ──────────────────────────────────────────────────────────────────────────────
@@ -215,3 +215,25 @@ Temporary Items/
 # .*/ 
 # !/.gitignore
 
+# ---------------------------
+# RAG project specific
+# ---------------------------
+
+# Additional virtual environments
+newenv/
+freshenv/
+
+# Vector database storage
+qdrant_storage/
+
+# Error/debug files
+error_log.txt
+installed_packages.txt
+debug_output*
+
+# Local test files (optional)
+test.py
+freshenv/
+embedding_checkpoints/
+notebooks/table_output.txt
+hotpot_qa.json
